@@ -69,3 +69,41 @@ button{
     padding: 50px 100px;
     background-color: grey;
 }
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    gap: 75px;
+}
+
+.pics{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.info{
+    text-align: center;
+}
